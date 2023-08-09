@@ -1,0 +1,223 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    padding: 15px;
+    font-size: 18px;
+    background-color: rgb(237, 237, 237);
+}
+
+header {
+    padding: 32px;
+    text-align: center;
+}
+
+.span1 {
+    background-color: black;
+    padding-left: 5px;
+    padding-right: 5px;
+    color: white;
+}
+
+/* cards */
+
+.card1 {
+    background-color: white;
+    width: 100%;
+    height: auto;
+    box-shadow: 0px 0px 15px black;
+}
+
+.cont1 {
+    padding: 20px;
+}
+
+button {
+    border: 1px solid rgb(184, 181, 181);
+    padding: 15px;
+    background-color: white;
+}
+
+.comt {
+    float: right;
+}
+
+.span2 {
+    background-color: black;
+    color: white;
+    padding: 2px 8px;
+}
+
+
+/* section  */
+
+section {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.left {
+    width: 60%;
+}
+
+.right {
+    width: 30%;
+}
+
+
+/* hovers proprtey */
+
+.read:hover {
+    background-color: rgb(208, 204, 204);
+}
+
+
+/* second line card1  */
+
+.sec-card1 {
+
+    background-color: white;
+    width: 100%;
+    height: auto;
+    box-shadow: 0px 0px 5px black;
+}
+
+.cont2 {
+    padding: 20px;
+}
+
+/* second line card2  */
+
+.sec-card2 {
+    background-color: white;
+    width: 100%;
+    height: auto;
+    box-shadow: 0px 0px 5px black;
+
+}
+
+.pop {
+    background-color: rgb(223, 220, 216);
+    font-size: 24px;
+    padding: 16px;
+}
+
+.lorem {
+    padding: 15px;
+    display: flex;
+    border-bottom: 1px solid black;
+}
+
+.span3 {
+    font-size: 22px;
+}
+
+.lor-cont {
+    padding-left: 15px;
+}
+
+/* second line card3 */
+
+.sec-card3 {
+    background-color: white;
+    width: 100%;
+    height: auto;
+    box-shadow: 0px 0px 5px black;
+}
+
+.tag {
+    font-size: 24px;
+    padding: 16px;
+    background-color: rgb(223, 220, 216);
+}
+
+.travel {
+    padding: 15px;
+
+}
+
+.span4 {
+    background-color: black;
+    padding-left: 5px;
+    padding-right: 5px;
+    color: white;
+}
+
+.span5 {
+    font-size: 12px;
+    background-color: rgb(226, 223, 219);
+    margin: 5px;
+    padding: 1px 3px;
+}
+
+
+/* footer  */
+.footer {
+    width: 100%;
+    height: auto;
+    background-color: rgb(83, 79, 79);
+    padding-top: 25px;
+    padding-left: 20px;
+}
+
+.pre {
+    background-color: rgb(72, 69, 69);
+    font-size: 16px;
+    color: rgb(198, 193, 193);
+    padding: 12px 26px;
+}
+
+.pre:hover {
+    background-color: gray;
+    color: white;
+}
+
+.next {
+    background-color: black;
+    font-size: 16px;
+    color: white;
+    padding: 12px 28px;
+}
+
+.next:hover {
+    background-color: rgb(255, 253, 253);
+    color: black;
+}
+
+.w3 {
+    color: white;
+}
+
+@media screen and (max-width:768px) {
+    body {
+        font-size: 24px;
+        margin: auto;
+    }
+
+    section {
+        display: block;
+        padding: 12px;
+    }
+
+    .sec-card1 {
+        margin-top: 24px;
+        padding-top: 64px;
+    }
+
+    .left {
+        display: block;
+        width: 100%;
+    }
+
+    .right {
+        display: block;
+        width: 100%;
+    }
+
+    .comt {
+        display: none;
+    }
+}
